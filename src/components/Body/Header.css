@@ -1,0 +1,13 @@
+.circle{
+    animation: hue 5s alternate infinite;
+    background: linear-gradient(90deg, hsla(57, 98%, 50%, 1) 0%, hsla(325, 69%, 56%, 1) 100%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+}
+
+@keyframes hue {
+    to{
+        filter: hue-rotate(1turn);
+    }
+}
